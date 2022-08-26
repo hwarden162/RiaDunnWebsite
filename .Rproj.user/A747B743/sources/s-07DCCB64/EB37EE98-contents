@@ -1,0 +1,87 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: Ria Dunn
+theme: personal-web
+copyright: © Ria Dunn
+googleAnalytics: ''
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+params:
+  accentColor: '#FD3519'
+  assets:
+    customCSS: ''
+    favicon: ''
+  breadcrumb: yes
+  contact:
+    email: ''
+    text: ''
+  intro:
+    main: 'Hi, I''m Ria :wave:'
+    sub: I'm a PhD Student at the University of Edinburgh and Heriot-Watt University
+  main:
+    latestPublishHeader: My Latest Project
+  mainSections: portfolio
+  notFound:
+    gopher: /images/gopher.png
+    h1: Bummer!
+    p: It seems that this page doesn't exist.
+  sections:
+    portfolio: project
+    post: article
+  sidebar:
+    backgroundImage: ''
+    gradientOverlay: ''
+    logo: 'images/ria-dunn.jpg'
+  social:
+    codepen: 
+    facebook: 
+    github: https://github.com/
+    gitlab: https://gitlab.com/
+    instagram: https://www.instagram.com/riasmuse/
+    keybase: 
+    linkedin: https://www.linkedin.com/in/ria-dunn-a54000206/
+    medium: 
+    twitter: https://twitter.com/
+    youtube: 
+taxonomies:
+  design: designs
+  tech: techs
+blackfriday:
+  hrefTargetBlank: yes
+menu:
+  main:
+    - identifier: about
+      name: About
+      title: About section
+      url: /about/
+      weight: -120
+    - identifier: portfolio
+      name: Portfolio
+      title: Portfolio
+      url: /portfolio/
+      weight: -110
+    - identifier: blog
+      name: Post
+      title: Blog section
+      url: /post/
+      weight: -100
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: yes
+    respectDoNotTrack: yes
+    useSessionStorage: no
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
