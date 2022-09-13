@@ -31,7 +31,7 @@ params:
     portfolio: project
     post: article
   sidebar:
-    backgroundImage: 'images/sidebar-bg1.jpg'
+    backgroundImage: 'images/sidebar-bg.jpg'
     gradientOverlay: ''
     logo: 'images/ria-dunn.jpg'
   social:
