@@ -9,7 +9,7 @@ enableRobotsTXT: yes
 pygmentsUseClasses: yes
 pygmentsCodeFences: yes
 params:
-  accentColor: '#FD3519'
+  accentColor: '#b800bd'
   assets:
     customCSS: ''
     favicon: ''
@@ -31,7 +31,7 @@ params:
     portfolio: project
     post: article
   sidebar:
-    backgroundImage: 'images/sidebar-bg.jpg'
+    backgroundImage: 'images/sidebar-bg1.jpg'
     gradientOverlay: ''
     logo: 'images/ria-dunn.jpg'
   social:
