@@ -5,6 +5,7 @@ images:
 title: ABOUT
 ---
 
+![Ria's GitHub stats](https://github-readme-stats.vercel.app/api?username=hwarden162&show_icons=true&theme=synthwave)
 
 This is my about page. :wave:
 

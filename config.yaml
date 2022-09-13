@@ -15,7 +15,7 @@ params:
     favicon: ''
   breadcrumb: yes
   contact:
-    email: ''
+    email: 'r.n.dunn@sms.ed.ac.uk'
     text: ''
   intro:
     main: 'Hi, I''m Ria :wave:'
@@ -31,7 +31,7 @@ params:
     portfolio: project
     post: article
   sidebar:
-    backgroundImage: ''
+    backgroundImage: 'images/sidebar-bg.jpg'
     gradientOverlay: ''
     logo: 'images/ria-dunn.jpg'
   social:
